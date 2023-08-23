@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "lato", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  border: 2px solid #393939;
+  padding: 0.4rem;
+}
+
+.navBar p {
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 500;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItems li {
+  border-right: 1px solid #595858fc;
+  padding: 0.4rem;
+  cursor: pointer;
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 500;
+}
+
+.contactList li {
+  list-style: inside;
+  padding-left: 1rem;
+}
+
+.navItems li:nth-child(3) {
+  border-right: none;
+}
+
+.navItems li:hover {
+  color: rgb(25, 47, 246);
+}
+
+.date {
+  margin: 0.5rem;
+  display: block;
+  float: right;
+}
+
+.listSectionHide {
+  display: none;
+}
+
+.listSection {
+  display: inline;
+}
+
+h1 {
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.booksContainer {
+  margin: 0 0.5rem;
+  border: 2px solid #393939;
+}
+
+.bookContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+}
+
+.bookContent:nth-child(2n + 1) {
+  background: #b6b6b658;
+}
+
+.bookInfo {
+  width: 70%;
+  font-family: "Bodoni Moda", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookTitle {
+  width: 50%;
+}
+
+.bookAuthor {
+  width: 25%;
+}
+
+.addSectionHide {
+  display: none;
+}
+
+.addSection {
+  display: inline;
+}
+
+.addSection hr {
+  margin: 1rem 7rem;
+  background: #393939;
+}
+
+.addSection h2 {
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3.5rem;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 0.2rem;
+}
+
+.addBtn {
+  width: 20%;
+  align-self: end;
+  margin: 0.5rem 0;
+}
+
+.contactSectionHide {
+  display: none;
+}
+
+.contactSection {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactSection h2 {
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 400;
+}
+
+.infoText {
+  margin: 1rem 0;
+}
+
+.copyright {
+  width: 85vw;
+  border: 2px solid black;
+  margin: 0.5rem;
+  padding: 1rem;
+  position: absolute;
+  bottom: 2%;
+}
+
+.copyright p {
+  font-family: "Bodoni Moda", sans-serif;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    width: 93%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .copyright {
+    width: 95%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .copyright {
+    width: 96%;
+  }
+}
